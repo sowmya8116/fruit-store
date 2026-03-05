@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fruit Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🍎 Fresh Fruit Store</h1>
+</header>
+
+<div class="container">
+
+<div class="fruit-card">
+<img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce">
+<h3>Apple</h3>
+<p>Price: ₹120 / kg</p>
+<button onclick="addToCart('Apple',120)">Add to Cart</button>
+</div>
+
+<div class="fruit-card">
+<img src="https://images.unsplash.com/photo-1574226516831-e1dff420e12e">
+<h3>Banana</h3>
+<p>Price: ₹40 / dozen</p>
+<button onclick="addToCart('Banana',40)">Add to Cart</button>
+</div>
+
+<div class="fruit-card">
+<img src="https://images.unsplash.com/photo-1582284540020-8acbe03f4924">
+<h3>Orange</h3>
+<p>Price: ₹80 / kg</p>
+<button onclick="addToCart('Orange',80)">Add to Cart</button>
+</div>
+
+<div class="fruit-card">
+<img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba">
+<h3>Mango</h3>
+<p>Price: ₹150 / kg</p>
+<button onclick="addToCart('Mango',150)">Add to Cart</button>
+</div>
+
+</div>
+
+<h2>🛒 Cart</h2>
+<ul id="cart"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
